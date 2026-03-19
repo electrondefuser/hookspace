@@ -12,8 +12,6 @@ Tested on Pixel 7, Android 16. Requires a rooted device for anything meaningful.
 
 Most Android hook detection you find online either checks a single thing (maps keyword scan) or wraps a Java library that is trivially bypassable by the time Frida gets to it. The goal here was to build something where bypassing one layer does not automatically bypass all of them, and to understand the architectural limits of userspace detection in general.
 
-The short answer to those limits is in `KERNEL_BYPASS.md`.
-
 ---
 
 ## Detection Methods
